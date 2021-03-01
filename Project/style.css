@@ -11,11 +11,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-p,h4,h3,.ptichka-sign-text{
-    
     font-family: Geometria;
-}  
+}
 .header{
     height: 877px;
     background-image: url(./Assets/back-img.jpg);
@@ -157,7 +154,7 @@ text-align: center;
  h2{
     font-family: GeometriaBold;
 font-size: 35px;
-line-height: 48px;
+line-height: 48.43px;
 letter-spacing: 0em;
 text-align: center;
 
@@ -167,7 +164,6 @@ text-align: center;
 .h2-under{
     font-size: 22px;
     font-family: Geometria;
-    font-size: 22px;
     line-height: 36px;
     letter-spacing: 0em;
     text-align: center;
@@ -252,14 +248,15 @@ hr{
 .second { grid-area: second; }
 .three { grid-area: three; }
 .four { grid-area: four; }
-.five { grid-area: five; }
+.five { grid-area: five; 
+    width: 745px;}
 .six {
      grid-area: six; 
-     height: 304.63px;
+     margin-left: -11.02px;
     }
-      .grid-containerr img{
+    .five img{
         width: 100%;
-      }  
+    }  
 .grid-containerr {
     margin-top: 30px;
     display: grid;
@@ -271,4 +268,78 @@ hr{
         "first second three"
         "first four four"
         "five five six";  
+    margin-bottom: 60px;    
+}
+.apartaments-header{
+    margin-bottom: 40px;
+}
+.price-sections{
+    width: 228px;
+    height: 60px;
+    border-right: 2px solid #F6F6F6;
+    padding: 18px 53px;
+}
+.price-section a :hover{
+    background-color: #F6F6F6;
+}
+.price-section a :visited{
+    background-color: #2A94E2;
+    color: white;
+}
+.price-section a:nth-child(5) div{
+    border-right: none;
+}
+.price-section{
+    border: 2px solid #F6F6F6;
+    display: flex;
+    margin-bottom: 30px;
+}
+.app-wrap{
+    width: 555px;
+    border: 1px solid #F6F6F6;
+    margin-bottom: 30px;
+}
+.app{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#apart-name{
+    font-family: GeometriaBold;
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+.app-description{
+    padding: 30px 30px 15px 30px;
+}
+#total-price{
+    font-size: 33px;
+}
+.app-desc-flex{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.app-desc-flex div p:nth-child(1){
+    margin-bottom: 15px;
+}
+#app-see-btn{
+    width: 100%;
+    padding: 15px 177px;
+    border: 2px solid #F6F6F6;
+    background-color: #F6F6F6;
+    font-size: 18px;
+}
+#app-see-btn:hover{
+    background-color: #2A94E2;
+    color: white;
+    
+}
+input:hover{
+    cursor: pointer;
+}
+.app-img-desc:hover{
+    box-shadow: 0px 0px 18px 0px #E9504F;
+    cursor: pointer;
 }
