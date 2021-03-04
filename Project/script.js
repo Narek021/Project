@@ -123,4 +123,4 @@ const array = {
     }
 }
 
-btn.onClick = () => array.push1(arr20, undefined);
+btn.onclick = () => array.push1(arr20, undefined);
