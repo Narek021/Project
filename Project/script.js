@@ -114,5 +114,13 @@ for (let i = 0; i < data.length; i++) {
                     <input id = "app-see-btn" type = "button" value="Назначить просмотр"></input>
                 </div>`
 }
+const btn = document.querySelector('.btn')
+const arr20 = [1, "str"]
+const array = {
+    push1:(arr, variable) => {
+        arr[arr.length] = variable;
+        console.log(arr);
+    }
+}
 
-console.log(app);
+btn.onClick = () => array.push1(arr20, undefined);
