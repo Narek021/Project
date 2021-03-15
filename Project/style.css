@@ -343,3 +343,60 @@ input:hover{
     box-shadow: 0px 0px 18px 0px #E9504F;
     cursor: pointer;
 }
+.btn{
+    width: 100%;
+    padding: 20px 0px;
+    font-size: 16px;
+    background: #F6F6F6;
+    border: none;
+}
+.btn img{
+    margin-left: 15px;
+}
+.apartaments{
+    margin-bottom: 60px;
+}
+.history{
+    background: #F6F6F6;
+    padding: 60px 0px;
+}
+.founded{
+    width: 49%;
+}
+.founded div p:nth-child(1){
+    margin-bottom: 10px;
+}
+.founded div{
+    margin-bottom: 20px;
+}
+.founded-title{
+    text-align: unset;
+    margin-bottom: 15px;
+}
+.see-more{
+    font-size: 20px;
+    max-width: 270px;
+    width: 100%;
+    padding: 15px 0px;
+    background: #2A94E2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.office-img{
+    display: flex;
+    flex-direction: column;
+}
+.office-img-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.founded-office-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.office-img-flex img:hover{
+    border: 2px solid #2A94E2;
+}
